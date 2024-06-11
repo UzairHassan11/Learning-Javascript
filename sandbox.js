@@ -1,3 +1,3 @@
 let people = ['Ali', 'Hassan', 'Akram', 'Moeen', 'Waqar'];
 
-people.forEach( ()=> console.log('something'));
+people.forEach( (person)=> console.log(person));
