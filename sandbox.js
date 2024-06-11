@@ -1,11 +1,10 @@
 
-const name = 'Ali';
+const func = (callBackFunction) =>{
+    let value = 50;
+    callBackFunction(50);
+}
 
-// function 
-
-const sayHi = () => 'Hello world';
-const greet = sayHi();
-console.log(greet);
-
-// method
-console.log(name.toUpperCase());
+func(function(value)
+{
+    console.log(value);
+});
