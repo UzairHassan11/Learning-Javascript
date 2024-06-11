@@ -14,8 +14,7 @@
 //     return area;
 // }
 
-const calcArea = radius => 3.14 * radius**2;
+const calcRectangleArea = (length, width) => length * width;
 
-
-let area = calcArea(2);
-console.log("area of the circle is " + area);
+let area = calcRectangleArea(2, 3);
+console.log("area of the rectangle is " + area);
