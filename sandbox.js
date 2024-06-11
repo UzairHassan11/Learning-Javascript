@@ -9,7 +9,12 @@
 //     console.log(`Hello, ${name}. It's ${time} O'Clock.`);
 // }
 
-const calcArea = function(radius){
+// const calcArea = function(radius){
+//     let area = 3.14 * radius**2;
+//     return area;
+// }
+
+const calcArea = (radius) =>{
     let area = 3.14 * radius**2;
     return area;
 }
