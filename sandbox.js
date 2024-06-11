@@ -3,8 +3,8 @@
 //     console.log("Hello world");
 // };
 
-sayHiTo('Ali');
+sayHiTo('Ali', 3);
 
-function sayHiTo(name){
-    console.log(`Hello, ${name}`);
+function sayHiTo(name, time){
+    console.log(`Hello, ${name}. It's ${time} O'Clock.`);
 }
