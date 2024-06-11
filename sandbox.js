@@ -19,5 +19,16 @@
 // let area = calcRectangleArea(2, 3);
 // console.log("area of the rectangle is " + area);
 
-const sayHi = () => 'Hello, world.';
-console.log(sayHi());
+// const sayHi = () => 'Hello, world.';
+// console.log(sayHi());
+
+const calcBill = function(productPrices, tax){
+    let bill = 0;
+    for(let i = 0; i < productPrices.length; i++)
+    {
+        bill += productPrices[i] + productPrices[i]*tax;
+    }
+    return bill;
+}
+const bill = calcBill([10, 20, 30], .2);
+console.log(bill);
