@@ -14,10 +14,8 @@
 //     return area;
 // }
 
-const calcArea = radius =>{
-    let area = 3.14 * radius**2;
-    return area;
-}
+const calcArea = radius => 3.14 * radius**2;
+
 
 let area = calcArea(2);
 console.log("area of the circle is " + area);
