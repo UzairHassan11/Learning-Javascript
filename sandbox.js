@@ -3,10 +3,8 @@
 //     console.log("Hello world");
 // };
 
-sayHi();
-sayHi();
-sayHi(); 
+sayHiTo('Ali');
 
-function sayHi(){
-    console.log("Hello world");
+function sayHiTo(name){
+    console.log(`Hello, ${name}`);
 }
