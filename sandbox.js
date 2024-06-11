@@ -1,5 +1,8 @@
 let people = ['Ali', 'Hassan', 'Akram', 'Moeen', 'Waqar'];
+let personsList = document.querySelector(".persons");
 
-const printNames = (person, index) => console.log(index + '- ' +person);
+let html = ``;
 
-people.forEach(printNames);
+people.forEach((person) => html+=`<li style = "color: blue">${person}</li>`);
+
+console.log(html);
