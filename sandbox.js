@@ -14,7 +14,7 @@
 //     return area;
 // }
 
-const calcArea = (radius) =>{
+const calcArea = radius =>{
     let area = 3.14 * radius**2;
     return area;
 }
