@@ -6,4 +6,8 @@ let user = {
     blog: ['Thesis', 'Minions']
 }
 
-console.log(user);
+// console.log(user);
+
+console.log(user['name']);
+user['name'] = 'Hassan';
+console.log(user['name']);
