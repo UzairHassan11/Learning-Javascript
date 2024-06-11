@@ -8,6 +8,7 @@ let user = {
 
 // console.log(user);
 
-console.log(user['name']);
-user['name'] = 'Hassan';
-console.log(user['name']);
+// console.log(user['name']);
+// user['name'] = 'Hassan';
+// console.log(user['name']);
+console.log(user.name);
