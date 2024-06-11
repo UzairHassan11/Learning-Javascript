@@ -3,13 +3,22 @@ let user = {
     age: 30,
     email: 'ali@gmail.com',
     location: 'Lahore',
-    blog: ['Thesis', 'Minions'],
+    blogs: ['Thesis', 'Minions'],
     login: function(){
         console.log('this is login function');
     },
-    logAge: ()=> console.log(this.age),
-    
+    logAge: ()=> {
+        this.age = 19;
+        console.log(this.age);
+    },
+    logBlogs: function() {
+        console.log(`blogs written by ${this.name}`);
+        this.blogs.forEach(blog => {
+            console.log(blog);
+        });
+    }
 };
 
 user.login();
 user.logAge();
+user.logBlogs();
