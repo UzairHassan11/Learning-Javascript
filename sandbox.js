@@ -14,7 +14,10 @@
 //     return area;
 // }
 
-const calcRectangleArea = (length, width) => length * width;
+// const calcRectangleArea = (length, width) => length * width;
 
-let area = calcRectangleArea(2, 3);
-console.log("area of the rectangle is " + area);
+// let area = calcRectangleArea(2, 3);
+// console.log("area of the rectangle is " + area);
+
+const sayHi = () => 'Hello, world.';
+console.log(sayHi());
