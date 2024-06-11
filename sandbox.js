@@ -3,15 +3,10 @@ let user = {
     age: 30,
     email: 'ali@gmail.com',
     location: 'Lahore',
-    blog: ['Thesis', 'Minions']
-}
+    blog: ['Thesis', 'Minions'],
+    login: function(){
+        console.log('this is login function');
+    }
+};
 
-// console.log(user);
-
-// console.log(user['name']);
-// user['name'] = 'Hassan';
-// console.log(user['name']);
-// console.log(user.name);
-console.log(typeof user);
-console.log(typeof user.name);
-console.log(typeof user.age);
+user.login();
