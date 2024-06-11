@@ -6,7 +6,10 @@ let user = {
     blog: ['Thesis', 'Minions'],
     login: function(){
         console.log('this is login function');
-    }
+    },
+    logAge: ()=> console.log(this.age),
+    
 };
 
 user.login();
+user.logAge();
