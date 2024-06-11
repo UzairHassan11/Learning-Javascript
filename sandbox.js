@@ -1,3 +1,5 @@
 let people = ['Ali', 'Hassan', 'Akram', 'Moeen', 'Waqar'];
 
-people.forEach( (person, index)=> console.log(index + '- ' +person));
+const printNames = (person, index) => console.log(index + '- ' +person);
+
+people.forEach(printNames);
