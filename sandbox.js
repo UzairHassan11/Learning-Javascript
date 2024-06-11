@@ -4,7 +4,4 @@ const func = (callBackFunction) =>{
     callBackFunction(50);
 }
 
-func(function(value)
-{
-    console.log(value);
-});
+func(value => console.log(value));
