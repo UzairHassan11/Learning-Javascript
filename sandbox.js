@@ -4,14 +4,14 @@ let user = {
     email: 'ali@gmail.com',
     location: 'Lahore',
     blogs: ['Thesis', 'Minions'],
-    login: function(){
+    login(){
         console.log('this is login function');
     },
     logAge: ()=> {
         this.age = 19;
         console.log(this.age);
     },
-    logBlogs: function() {
+    logBlogs() {
         console.log(`blogs written by ${this.name}`);
         this.blogs.forEach(blog => {
             console.log(blog);
