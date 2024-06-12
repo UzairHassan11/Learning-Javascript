@@ -1,8 +1,10 @@
-// const para = document.querySelector('p');
-// console.log(para.innerText);
+const div = document.querySelector('div');
+console.log(div);
 
-const paras = document.querySelectorAll('p');
-paras.forEach(para =>{
-    para.innerText += ' new text';
-    console.log(para.innerText);
+div.innerHTML = '<h2>Hello, world.</h2>';
+
+const people = ['Ali', 'Ahmad', 'Hassan', 'Ejaz'];
+div.innerHTML = '';
+people.forEach(person=>{
+    div.innerHTML += `<p>${person}</p>`
 });
