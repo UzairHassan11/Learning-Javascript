@@ -1,11 +1,8 @@
-// get element by ID
-const byId = document.getElementById("page-title");
-console.log(byId);
+// const para = document.querySelector('p');
+// console.log(para.innerText);
 
-// get elements by class name
-const byClassName = document.getElementsByClassName("error");
-console.log(byClassName);
-
-// get element by tag name
-const byTagName = document.getElementsByTagName("div");
-console.log(byTagName);
+const paras = document.querySelectorAll('p');
+paras.forEach(para =>{
+    para.innerText += ' new text';
+    console.log(para.innerText);
+});
